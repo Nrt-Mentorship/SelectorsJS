@@ -1,66 +1,54 @@
 body {
   height: 200px;
-  box-sizing: border-box;
-  background-color: white;
-  background-size: cover;
-  font-family: "Coda", cursive;
   width: 100%;
   margin: 0;
   padding: 0;
-}
-
-.wrapper {
+  background: white;
+  }
+  .wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-/* Container Cards Style */
-.container {
-  margin-top: 5rem;
-  height: 210px;
-  width: auto;
-  padding: 32px;
-  border-radius: 10px;
+  }
+  .container {
+  margin-top: 5em;
+  height: 300px;
   display: grid;
-  grid-gap: 1rem;
+  grid-gap: 1em;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-areas: "card card card card";
-}
-
-.box {
-  height: 150px;
-  width: 150px;
-  color: #ffffff;
-  cursor: pointer;
+  grid-template-areas: "box box box box";
+  }
+  .box {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 5px 2px 20px 0 rgba(0, 0, 0, 0.5);
-}
-
-#box-1 {
-  background: rgb(57, 57, 110);
-}
-#box-2 {
-  background: chocolate;
-}
-#box-3 {
-  background: darkcyan;
-}
-#box-4 {
-  background: #2d3d4b;
-}
-#box-5 {
-  background: rgb(21, 212, 78);
-}
-#box-6 {
-  background: rgb(68, 24, 48);
-}
-#box-7 {
-  background: rgb(192, 50, 73);
-}
-#box-8 {
-  background: #925f3d;
-}
+  height: 100px;
+  width: 100px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  }
+  #box-1 {
+      background: blue;
+  }
+  #box-2 {
+      background: yellow;
+  }
+  #box-3 {
+      background: skyblue;
+  }
+  #box-4 {
+      background: slateblue;
+  }
+  #box-5 {
+    background: brown;
+  }
+  #box-6 {
+    background: gray;
+  }
+  #box-7 {
+    background: lightsalmon;
+    
+  }
+  #box-8 {
+    background: darkorchid;
+    
+  }
